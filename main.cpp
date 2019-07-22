@@ -59,7 +59,7 @@ int guessGame::getRand()
 int main()
 {
 
-    guessGame guessing_game ;
+    guessGame *guessing_game = new guessGame ;
 
-    guessing_game.play() ;
+    (*guessing_game).play() ;
 }
